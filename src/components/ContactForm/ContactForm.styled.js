@@ -6,8 +6,8 @@ flex-direction: column;
 justify-content: center;
 color: black;
 padding: 30px 15px 20px;
-border-top: 1px solid maroon;
-border-bottom: 1px solid maroon;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
 `;
 
 export const Input = styled.input`
@@ -30,23 +30,23 @@ padding: 5px 0 1px 10px;
 border-color: black;
 border-style: solid;
 border-width: 0 0 0 2px;
-border-radius: 20px 20px 0 0;
-font-size: 14px;
+border-radius: 22px 24px 0 0;
+font-size: 17px;
 
 `;
 
 export const Button = styled.button`
 margin: 0 auto;
-height: 25px;
-width: 100px;
+height: 31px;
+width: 105px;
 border: 0.3px solid black;
 border-radius: 20px;
 box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 cursor: pointer;
 transform: scale(1);
-transition: transform 250ms, background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1), color 500ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: transform 350ms, background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1), color 500ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 700ms cubic-bezier(0.4, 0, 0.2, 1);
 &:hover {
-  background-color: maroon;
+  background-color: gray;
   color: white;
   transform: scale(0.95);
   transition: transform 500ms;

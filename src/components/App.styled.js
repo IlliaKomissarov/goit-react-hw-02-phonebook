@@ -4,12 +4,12 @@ export const Wrapper = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: start;
-width: 350px;
-min-height: 80vh;
-margin: 30px auto 30px;
-padding: 20px;
-border-width: 10px 0 10px 0;
-border-color: maroon;
+width: 325px;
+min-height: 86vh;
+margin: 31px auto 34px;
+padding: 25px;
+border-width: 12px 0 12px 0;
+border-color: black;
 border-style: solid;
 background-color: #fff;
 `;
